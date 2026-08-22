@@ -1928,15 +1928,6 @@
         ]
     },
     {
-        "group_icon": null,
-        "group_name": "",
-        "items": [
-            {
-                "name": "minecraft:copper_nugget"
-            }
-        ]
-    },
-    {
         "group_icon": {
             "block_states": "CgAAAwkAZGlyZWN0aW9uAAAAAAA=",
             "name": "minecraft:lab_table"
@@ -2320,13 +2311,6 @@
                 "meta": 1,
                 "name": "minecraft:sparkler"
             }
-        ]
-    },
-    {
-        "group_icon": null,
-        "group_name": "",
-        "items": [
-            "minecraft:sulfur_cube_bucket"
         ]
     }
 ]
