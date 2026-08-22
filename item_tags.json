@@ -24,6 +24,8 @@
         "minecraft:oak_chest_boat",
         "minecraft:pale_oak_boat",
         "minecraft:pale_oak_chest_boat",
+        "minecraft:poplar_boat",
+        "minecraft:poplar_chest_boat",
         "minecraft:spruce_boat",
         "minecraft:spruce_chest_boat"
     ],
@@ -46,6 +48,8 @@
         "minecraft:oak_chest_boat",
         "minecraft:pale_oak_boat",
         "minecraft:pale_oak_chest_boat",
+        "minecraft:poplar_boat",
+        "minecraft:poplar_chest_boat",
         "minecraft:spruce_boat",
         "minecraft:spruce_chest_boat"
     ],
@@ -166,6 +170,7 @@
         "minecraft:mangrove_door",
         "minecraft:oxidized_copper_door",
         "minecraft:pale_oak_door",
+        "minecraft:poplar_door",
         "minecraft:spruce_door",
         "minecraft:warped_door",
         "minecraft:waxed_copper_door",
@@ -206,6 +211,7 @@
         "minecraft:mangrove_hanging_sign",
         "minecraft:oak_hanging_sign",
         "minecraft:pale_oak_hanging_sign",
+        "minecraft:poplar_hanging_sign",
         "minecraft:spruce_hanging_sign",
         "minecraft:warped_hanging_sign"
     ],
@@ -660,6 +666,8 @@
         "minecraft:oak_sign",
         "minecraft:pale_oak_hanging_sign",
         "minecraft:pale_oak_sign",
+        "minecraft:poplar_hanging_sign",
+        "minecraft:poplar_sign",
         "minecraft:spruce_hanging_sign",
         "minecraft:spruce_sign",
         "minecraft:warped_hanging_sign",
@@ -1283,6 +1291,7 @@
         "minecraft:mangrove_slab",
         "minecraft:oak_slab",
         "minecraft:pale_oak_slab",
+        "minecraft:poplar_slab",
         "minecraft:spruce_slab",
         "minecraft:warped_slab"
     ],
