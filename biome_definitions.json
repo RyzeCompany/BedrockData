@@ -21,7 +21,11 @@
             "spawns_jungle_mobs",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 0.95
+        "temperature": 0.95,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:bamboo_jungle_hills": {
         "depth": 0.45,
@@ -46,7 +50,11 @@
             "spawns_jungle_mobs",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 0.95
+        "temperature": 0.95,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:basalt_deltas": {
         "depth": 0.1,
@@ -68,7 +76,11 @@
             "spawn_ghast",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 2
+        "temperature": 2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 2
     },
     "minecraft:beach": {
         "depth": 0,
@@ -89,7 +101,11 @@
             "overworld",
             "warm"
         ],
-        "temperature": 0.8
+        "temperature": 0.8,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:birch_forest": {
         "depth": 0.1,
@@ -112,7 +128,11 @@
             "overworld",
             "bee_habitat"
         ],
-        "temperature": 0.6
+        "temperature": 0.6,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:birch_forest_hills": {
         "depth": 0.45,
@@ -136,7 +156,11 @@
             "overworld",
             "bee_habitat"
         ],
-        "temperature": 0.6
+        "temperature": 0.6,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:birch_forest_hills_mutated": {
         "depth": 0.55,
@@ -160,7 +184,11 @@
             "mutated",
             "overworld_generation"
         ],
-        "temperature": 0.7
+        "temperature": 0.7,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:birch_forest_mutated": {
         "depth": 0.2,
@@ -185,7 +213,11 @@
             "overworld_generation",
             "has_structure_trail_ruins"
         ],
-        "temperature": 0.6
+        "temperature": 0.6,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:cherry_grove": {
         "depth": 0.1,
@@ -207,7 +239,11 @@
             "cherry_grove",
             "bee_habitat"
         ],
-        "temperature": 0.3
+        "temperature": 0.3,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:cold_beach": {
         "depth": 0,
@@ -232,7 +268,11 @@
             "spawns_snow_foxes",
             "spawns_white_rabbits"
         ],
-        "temperature": 0.05
+        "temperature": 0.05,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:cold_ocean": {
         "depth": -1,
@@ -256,7 +296,11 @@
             "fast_fishing",
             "high_seas"
         ],
-        "temperature": 0.5
+        "temperature": 0.5,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:cold_taiga": {
         "depth": 0.2,
@@ -281,7 +325,11 @@
             "has_structure_trail_ruins",
             "spawns_cold_variant_farm_animals"
         ],
-        "temperature": -0.5
+        "temperature": -0.5,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:cold_taiga_hills": {
         "depth": 0.45,
@@ -308,7 +356,11 @@
             "spawns_cold_variant_frogs",
             "spawns_white_rabbits"
         ],
-        "temperature": -0.5
+        "temperature": -0.5,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:cold_taiga_mutated": {
         "depth": 0.3,
@@ -333,7 +385,11 @@
             "overworld_generation",
             "spawns_cold_variant_farm_animals"
         ],
-        "temperature": -0.5
+        "temperature": -0.5,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:crimson_forest": {
         "depth": 0.1,
@@ -356,7 +412,11 @@
             "spawn_piglin",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 2
+        "temperature": 2,
+        "redSporeDensity": 0.25,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:deep_cold_ocean": {
         "depth": -1.8,
@@ -381,7 +441,11 @@
             "fast_fishing",
             "high_seas"
         ],
-        "temperature": 0.5
+        "temperature": 0.5,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:deep_dark": {
         "depth": 0.1,
@@ -403,7 +467,11 @@
             "spawns_cold_variant_farm_animals",
             "spawns_cold_variant_frogs"
         ],
-        "temperature": 0.8
+        "temperature": 0.8,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:deep_frozen_ocean": {
         "depth": -1.8,
@@ -430,7 +498,11 @@
             "fast_fishing",
             "high_seas"
         ],
-        "temperature": 0.5
+        "temperature": 0.5,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:deep_lukewarm_ocean": {
         "depth": -1.8,
@@ -455,7 +527,11 @@
             "fast_fishing",
             "high_seas"
         ],
-        "temperature": 0.5
+        "temperature": 0.5,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:deep_ocean": {
         "depth": -1.8,
@@ -479,7 +555,11 @@
             "fast_fishing",
             "high_seas"
         ],
-        "temperature": 0.5
+        "temperature": 0.5,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:deep_warm_ocean": {
         "depth": -1.8,
@@ -504,7 +584,11 @@
             "fast_fishing",
             "high_seas"
         ],
-        "temperature": 0.5
+        "temperature": 0.5,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:desert": {
         "depth": 0.125,
@@ -527,7 +611,11 @@
             "spawns_warm_variant_farm_animals",
             "spawns_warm_variant_frogs"
         ],
-        "temperature": 2
+        "temperature": 2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:desert_hills": {
         "depth": 0.45,
@@ -550,7 +638,11 @@
             "spawns_gold_rabbits",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 2
+        "temperature": 2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:desert_mutated": {
         "depth": 0.225,
@@ -573,7 +665,11 @@
             "spawns_gold_rabbits",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 2
+        "temperature": 2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:dripstone_caves": {
         "depth": 0.1,
@@ -594,7 +690,11 @@
             "dripstone_caves",
             "monster"
         ],
-        "temperature": 0.2
+        "temperature": 0.2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:extreme_hills": {
         "depth": 1,
@@ -616,7 +716,11 @@
             "overworld",
             "spawns_cold_variant_farm_animals"
         ],
-        "temperature": 0.2
+        "temperature": 0.2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:extreme_hills_edge": {
         "depth": 0.8,
@@ -640,7 +744,11 @@
             "overworld",
             "spawns_cold_variant_farm_animals"
         ],
-        "temperature": 0.2
+        "temperature": 0.2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:extreme_hills_mutated": {
         "depth": 1,
@@ -663,7 +771,11 @@
             "overworld",
             "spawns_cold_variant_farm_animals"
         ],
-        "temperature": 0.2
+        "temperature": 0.2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:extreme_hills_plus_trees": {
         "depth": 1,
@@ -687,7 +799,11 @@
             "overworld",
             "spawns_cold_variant_farm_animals"
         ],
-        "temperature": 0.2
+        "temperature": 0.2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:extreme_hills_plus_trees_mutated": {
         "depth": 1,
@@ -711,7 +827,11 @@
             "overworld",
             "spawns_cold_variant_farm_animals"
         ],
-        "temperature": 0.2
+        "temperature": 0.2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:flower_forest": {
         "depth": 0.1,
@@ -734,7 +854,11 @@
             "overworld",
             "bee_habitat"
         ],
-        "temperature": 0.7
+        "temperature": 0.7,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:forest": {
         "depth": 0.1,
@@ -756,7 +880,11 @@
             "overworld",
             "bee_habitat"
         ],
-        "temperature": 0.7
+        "temperature": 0.7,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:forest_hills": {
         "depth": 0.45,
@@ -779,7 +907,11 @@
             "forest",
             "bee_habitat"
         ],
-        "temperature": 0.7
+        "temperature": 0.7,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:frozen_ocean": {
         "depth": -1,
@@ -807,7 +939,11 @@
             "fast_fishing",
             "high_seas"
         ],
-        "temperature": 0
+        "temperature": 0,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:frozen_peaks": {
         "depth": 0.1,
@@ -833,7 +969,11 @@
             "spawns_snow_foxes",
             "spawns_white_rabbits"
         ],
-        "temperature": -0.7
+        "temperature": -0.7,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:frozen_river": {
         "depth": -0.5,
@@ -858,7 +998,11 @@
             "spawns_snow_foxes",
             "spawns_white_rabbits"
         ],
-        "temperature": 0
+        "temperature": 0,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:grove": {
         "depth": 0.1,
@@ -884,7 +1028,11 @@
             "spawns_snow_foxes",
             "spawns_white_rabbits"
         ],
-        "temperature": -0.2
+        "temperature": -0.2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:hell": {
         "depth": 0.1,
@@ -910,7 +1058,11 @@
             "spawn_zombified_piglin",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 2
+        "temperature": 2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:ice_mountains": {
         "depth": 0.45,
@@ -935,7 +1087,11 @@
             "spawns_snow_foxes",
             "spawns_white_rabbits"
         ],
-        "temperature": 0
+        "temperature": 0,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:ice_plains": {
         "depth": 0.125,
@@ -960,7 +1116,11 @@
             "spawns_snow_foxes",
             "spawns_white_rabbits"
         ],
-        "temperature": 0
+        "temperature": 0,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:ice_plains_spikes": {
         "depth": 0.425,
@@ -985,7 +1145,11 @@
             "spawns_cold_variant_frogs",
             "spawns_white_rabbits"
         ],
-        "temperature": 0
+        "temperature": 0,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:jagged_peaks": {
         "depth": 0.1,
@@ -1011,7 +1175,11 @@
             "spawns_snow_foxes",
             "spawns_white_rabbits"
         ],
-        "temperature": -0.7
+        "temperature": -0.7,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:jungle": {
         "depth": 0.1,
@@ -1036,7 +1204,11 @@
             "spawns_jungle_mobs",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 0.95
+        "temperature": 0.95,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:jungle_edge": {
         "depth": 0.1,
@@ -1060,7 +1232,11 @@
             "spawns_jungle_mobs",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 0.95
+        "temperature": 0.95,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:jungle_edge_mutated": {
         "depth": 0.2,
@@ -1085,7 +1261,11 @@
             "spawns_jungle_mobs",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 0.95
+        "temperature": 0.95,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:jungle_hills": {
         "depth": 0.45,
@@ -1109,7 +1289,11 @@
             "spawns_jungle_mobs",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 0.95
+        "temperature": 0.95,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:jungle_mutated": {
         "depth": 0.2,
@@ -1132,7 +1316,11 @@
             "overworld_generation",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 0.95
+        "temperature": 0.95,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:legacy_frozen_ocean": {
         "depth": -1,
@@ -1157,7 +1345,11 @@
             "fast_fishing",
             "high_seas"
         ],
-        "temperature": 0
+        "temperature": 0,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:lukewarm_ocean": {
         "depth": -1,
@@ -1181,7 +1373,11 @@
             "fast_fishing",
             "high_seas"
         ],
-        "temperature": 0.5
+        "temperature": 0.5,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:lush_caves": {
         "depth": 0.1,
@@ -1203,7 +1399,11 @@
             "monster",
             "spawns_tropical_fish_at_any_height"
         ],
-        "temperature": 0.9
+        "temperature": 0.9,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:mangrove_swamp": {
         "depth": -0.2,
@@ -1227,7 +1427,11 @@
             "spawns_warm_variant_frogs",
             "slime"
         ],
-        "temperature": 0.8
+        "temperature": 0.8,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:meadow": {
         "depth": 0.1,
@@ -1249,7 +1453,11 @@
             "meadow",
             "bee_habitat"
         ],
-        "temperature": 0.3
+        "temperature": 0.3,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:mega_taiga": {
         "depth": 0.2,
@@ -1275,7 +1483,11 @@
             "has_structure_trail_ruins",
             "spawns_cold_variant_farm_animals"
         ],
-        "temperature": 0.3
+        "temperature": 0.3,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:mega_taiga_hills": {
         "depth": 0.45,
@@ -1300,7 +1512,11 @@
             "taiga",
             "spawns_cold_variant_farm_animals"
         ],
-        "temperature": 0.3
+        "temperature": 0.3,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:mesa": {
         "depth": 0.1,
@@ -1324,7 +1540,11 @@
             "spawns_warm_variant_farm_animals",
             "surface_mineshaft"
         ],
-        "temperature": 2
+        "temperature": 2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:mesa_bryce": {
         "depth": 0.1,
@@ -1349,7 +1569,11 @@
             "spawns_warm_variant_farm_animals",
             "surface_mineshaft"
         ],
-        "temperature": 2
+        "temperature": 2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:mesa_plateau": {
         "depth": 1.5,
@@ -1375,7 +1599,11 @@
             "spawns_warm_variant_farm_animals",
             "surface_mineshaft"
         ],
-        "temperature": 2
+        "temperature": 2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:mesa_plateau_mutated": {
         "depth": 0.45,
@@ -1402,7 +1630,11 @@
             "spawns_warm_variant_farm_animals",
             "surface_mineshaft"
         ],
-        "temperature": 2
+        "temperature": 2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:mesa_plateau_stone": {
         "depth": 1.5,
@@ -1429,7 +1661,11 @@
             "spawns_warm_variant_farm_animals",
             "surface_mineshaft"
         ],
-        "temperature": 2
+        "temperature": 2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:mesa_plateau_stone_mutated": {
         "depth": 0.45,
@@ -1455,7 +1691,11 @@
             "spawns_warm_variant_farm_animals",
             "surface_mineshaft"
         ],
-        "temperature": 2
+        "temperature": 2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:mushroom_island": {
         "depth": 0.2,
@@ -1475,7 +1715,11 @@
             "overworld",
             "spawns_without_patrols"
         ],
-        "temperature": 0.9
+        "temperature": 0.9,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:mushroom_island_shore": {
         "depth": 0,
@@ -1496,7 +1740,11 @@
             "shore",
             "spawns_without_patrols"
         ],
-        "temperature": 0.9
+        "temperature": 0.9,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:ocean": {
         "depth": -1,
@@ -1518,7 +1766,11 @@
             "fast_fishing",
             "high_seas"
         ],
-        "temperature": 0.5
+        "temperature": 0.5,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:pale_garden": {
         "depth": 0.1,
@@ -1538,7 +1790,11 @@
             "overworld",
             "pale_garden"
         ],
-        "temperature": 0.7
+        "temperature": 0.7,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:plains": {
         "depth": 0.125,
@@ -1560,7 +1816,11 @@
             "plains",
             "bee_habitat"
         ],
-        "temperature": 0.8
+        "temperature": 0.8,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:redwood_taiga_hills_mutated": {
         "depth": 0.55,
@@ -1586,7 +1846,11 @@
             "overworld_generation",
             "spawns_cold_variant_farm_animals"
         ],
-        "temperature": 0.3
+        "temperature": 0.3,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:redwood_taiga_mutated": {
         "depth": 0.2,
@@ -1612,7 +1876,11 @@
             "has_structure_trail_ruins",
             "spawns_cold_variant_farm_animals"
         ],
-        "temperature": 0.25
+        "temperature": 0.25,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:river": {
         "depth": -0.5,
@@ -1634,7 +1902,11 @@
             "spawns_river_mobs",
             "river"
         ],
-        "temperature": 0.5
+        "temperature": 0.5,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:roofed_forest": {
         "depth": 0.1,
@@ -1657,7 +1929,11 @@
             "overworld",
             "roofed"
         ],
-        "temperature": 0.7
+        "temperature": 0.7,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:roofed_forest_mutated": {
         "depth": 0.2,
@@ -1680,7 +1956,11 @@
             "roofed",
             "overworld_generation"
         ],
-        "temperature": 0.7
+        "temperature": 0.7,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:savanna": {
         "depth": 0.125,
@@ -1703,7 +1983,11 @@
             "spawns_savanna_mobs",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 1.2
+        "temperature": 1.2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:savanna_mutated": {
         "depth": 0.363,
@@ -1727,7 +2011,11 @@
             "spawns_savanna_mobs",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 2
+        "temperature": 2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:savanna_plateau": {
         "depth": 1.5,
@@ -1751,7 +2039,11 @@
             "spawns_savanna_mobs",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 1
+        "temperature": 1,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:savanna_plateau_mutated": {
         "depth": 1.05,
@@ -1776,7 +2068,11 @@
             "spawns_savanna_mobs",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 1
+        "temperature": 1,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:snowy_slopes": {
         "depth": 0.1,
@@ -1802,7 +2098,11 @@
             "snowy_slopes",
             "spawns_cold_variant_farm_animals"
         ],
-        "temperature": -0.3
+        "temperature": -0.3,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:soulsand_valley": {
         "depth": 0.1,
@@ -1824,7 +2124,11 @@
             "spawn_endermen",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 2
+        "temperature": 2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0.05,
+        "whiteAshDensity": 0
     },
     "minecraft:stone_beach": {
         "depth": 0.1,
@@ -1845,7 +2149,11 @@
             "overworld",
             "stone"
         ],
-        "temperature": 0.2
+        "temperature": 0.2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:stony_peaks": {
         "depth": 0.1,
@@ -1866,7 +2174,11 @@
             "overworld",
             "spawns_cold_variant_farm_animals"
         ],
-        "temperature": 1
+        "temperature": 1,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:sulfur_caves": {
         "depth": 0.1,
@@ -1887,7 +2199,11 @@
             "overworld",
             "monster"
         ],
-        "temperature": 0.8
+        "temperature": 0.8,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:sunflower_plains": {
         "depth": 0.125,
@@ -1910,7 +2226,11 @@
             "plains",
             "bee_habitat"
         ],
-        "temperature": 0.8
+        "temperature": 0.8,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:swampland": {
         "depth": -0.2,
@@ -1934,7 +2254,11 @@
             "slime",
             "swamp_water_huge_mushroom"
         ],
-        "temperature": 0.8
+        "temperature": 0.8,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:swampland_mutated": {
         "depth": -0.1,
@@ -1959,7 +2283,11 @@
             "slime",
             "swamp_water_huge_mushroom"
         ],
-        "temperature": 0.8
+        "temperature": 0.8,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:taiga": {
         "depth": 0.1,
@@ -1983,7 +2311,11 @@
             "has_structure_trail_ruins",
             "spawns_cold_variant_farm_animals"
         ],
-        "temperature": 0.25
+        "temperature": 0.25,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:taiga_hills": {
         "depth": 0.45,
@@ -2007,7 +2339,11 @@
             "taiga",
             "spawns_cold_variant_farm_animals"
         ],
-        "temperature": 0.25
+        "temperature": 0.25,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:taiga_mutated": {
         "depth": 0.2,
@@ -2031,7 +2367,11 @@
             "overworld_generation",
             "spawns_cold_variant_farm_animals"
         ],
-        "temperature": 0.25
+        "temperature": 0.25,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:the_end": {
         "depth": 0.1,
@@ -2051,7 +2391,11 @@
             "spawns_cold_variant_farm_animals",
             "spawns_cold_variant_frogs"
         ],
-        "temperature": 0.5
+        "temperature": 0.5,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:warm_ocean": {
         "depth": -1,
@@ -2076,7 +2420,11 @@
             "fast_fishing",
             "high_seas"
         ],
-        "temperature": 0.5
+        "temperature": 0.5,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     },
     "minecraft:warped_forest": {
         "depth": 0.1,
@@ -2098,6 +2446,10 @@
             "spawn_endermen",
             "spawns_warm_variant_farm_animals"
         ],
-        "temperature": 2
+        "temperature": 2,
+        "redSporeDensity": 0,
+        "blueSporeDensity": 0.25,
+        "ashDensity": 0,
+        "whiteAshDensity": 0
     }
 }
