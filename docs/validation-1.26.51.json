@@ -1,0 +1,33 @@
+{
+  "target": "Minecraft Bedrock 1.26.51.1",
+  "source_dump_sha256": "fc58f81936994798f06a06dbdf62a19875cbcd2813706ef75f02d6d94e98753b",
+  "source_bedrockdata_sha256": "e5c9cfee4d81c402f25ddb32e909f547a6f17fd250571e322b63a7101ebd743b",
+  "checks": {
+    "zip_integrity": true,
+    "canonical_block_states_count": 22091,
+    "canonical_matches_bds_names": true,
+    "canonical_matches_bds_states": true,
+    "canonical_versions_match_bds": true,
+    "canonical_version": 18168865,
+    "block_state_meta_entries": 22091,
+    "meta_exact_matches_current": 11208,
+    "meta_exact_mismatches": 0,
+    "required_items": 2076,
+    "required_item_missing": 0,
+    "required_item_runtime_id_mismatches": 0,
+    "item_tags": 77,
+    "item_tag_membership_mismatches": 0,
+    "block_types": 1477,
+    "block_properties_keys_match": true,
+    "block_item_map_entries": 1477,
+    "block_item_map_keys_match_bds_block_types": true
+  },
+  "notes": [
+    "Original BedrockData and BDS ZIPs remain untouched.",
+    "Historical versioned files remain present.",
+    "PocketMine-MP and BedrockProtocol were not modified.",
+    "composer update-codegen was not run.",
+    "Unversioned creative/recipe data was intentionally not overwritten because the fork uses versioned snapshots for protocol-critical dictionaries and those assets require a later PocketMine integration decision."
+  ],
+  "validated_at": "2026-09-20"
+}

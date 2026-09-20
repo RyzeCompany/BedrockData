@@ -1,0 +1,2584 @@
+{
+  "source_hashes": {
+    "BedrockData-main.zip": "e5c9cfee4d81c402f25ddb32e909f547a6f17fd250571e322b63a7101ebd743b",
+    "bds-1.26.51.1-vanilla-data.zip": "fc58f81936994798f06a06dbdf62a19875cbcd2813706ef75f02d6d94e98753a"
+  },
+  "block_states": {
+    "bds_total": 22091,
+    "current_total": 17499,
+    "new_block_names": [
+      "minecraft:black_concrete_double_slab",
+      "minecraft:black_concrete_slab",
+      "minecraft:black_concrete_stairs",
+      "minecraft:black_wool_double_slab",
+      "minecraft:black_wool_slab",
+      "minecraft:black_wool_stairs",
+      "minecraft:blue_concrete_double_slab",
+      "minecraft:blue_concrete_slab",
+      "minecraft:blue_concrete_stairs",
+      "minecraft:blue_wool_double_slab",
+      "minecraft:blue_wool_slab",
+      "minecraft:blue_wool_stairs",
+      "minecraft:brown_concrete_double_slab",
+      "minecraft:brown_concrete_slab",
+      "minecraft:brown_concrete_stairs",
+      "minecraft:brown_wool_double_slab",
+      "minecraft:brown_wool_slab",
+      "minecraft:brown_wool_stairs",
+      "minecraft:cyan_concrete_double_slab",
+      "minecraft:cyan_concrete_slab",
+      "minecraft:cyan_concrete_stairs",
+      "minecraft:cyan_wool_double_slab",
+      "minecraft:cyan_wool_slab",
+      "minecraft:cyan_wool_stairs",
+      "minecraft:gray_concrete_double_slab",
+      "minecraft:gray_concrete_slab",
+      "minecraft:gray_concrete_stairs",
+      "minecraft:gray_wool_double_slab",
+      "minecraft:gray_wool_slab",
+      "minecraft:gray_wool_stairs",
+      "minecraft:green_concrete_double_slab",
+      "minecraft:green_concrete_slab",
+      "minecraft:green_concrete_stairs",
+      "minecraft:green_wool_double_slab",
+      "minecraft:green_wool_slab",
+      "minecraft:green_wool_stairs",
+      "minecraft:light_blue_concrete_double_slab",
+      "minecraft:light_blue_concrete_slab",
+      "minecraft:light_blue_concrete_stairs",
+      "minecraft:light_blue_wool_double_slab",
+      "minecraft:light_blue_wool_slab",
+      "minecraft:light_blue_wool_stairs",
+      "minecraft:light_gray_concrete_double_slab",
+      "minecraft:light_gray_concrete_slab",
+      "minecraft:light_gray_concrete_stairs",
+      "minecraft:light_gray_wool_double_slab",
+      "minecraft:light_gray_wool_slab",
+      "minecraft:light_gray_wool_stairs",
+      "minecraft:lime_concrete_double_slab",
+      "minecraft:lime_concrete_slab",
+      "minecraft:lime_concrete_stairs",
+      "minecraft:lime_wool_double_slab",
+      "minecraft:lime_wool_slab",
+      "minecraft:lime_wool_stairs",
+      "minecraft:magenta_concrete_double_slab",
+      "minecraft:magenta_concrete_slab",
+      "minecraft:magenta_concrete_stairs",
+      "minecraft:magenta_wool_double_slab",
+      "minecraft:magenta_wool_slab",
+      "minecraft:magenta_wool_stairs",
+      "minecraft:orange_concrete_double_slab",
+      "minecraft:orange_concrete_slab",
+      "minecraft:orange_concrete_stairs",
+      "minecraft:orange_wool_double_slab",
+      "minecraft:orange_wool_slab",
+      "minecraft:orange_wool_stairs",
+      "minecraft:pink_concrete_double_slab",
+      "minecraft:pink_concrete_slab",
+      "minecraft:pink_concrete_stairs",
+      "minecraft:pink_wool_double_slab",
+      "minecraft:pink_wool_slab",
+      "minecraft:pink_wool_stairs",
+      "minecraft:purple_concrete_double_slab",
+      "minecraft:purple_concrete_slab",
+      "minecraft:purple_concrete_stairs",
+      "minecraft:purple_wool_double_slab",
+      "minecraft:purple_wool_slab",
+      "minecraft:purple_wool_stairs",
+      "minecraft:red_concrete_double_slab",
+      "minecraft:red_concrete_slab",
+      "minecraft:red_concrete_stairs",
+      "minecraft:red_shrub",
+      "minecraft:red_wool_double_slab",
+      "minecraft:red_wool_slab",
+      "minecraft:red_wool_stairs",
+      "minecraft:shelf_mushroom",
+      "minecraft:white_concrete_double_slab",
+      "minecraft:white_concrete_slab",
+      "minecraft:white_concrete_stairs",
+      "minecraft:white_wool_double_slab",
+      "minecraft:white_wool_slab",
+      "minecraft:white_wool_stairs",
+      "minecraft:yellow_concrete_double_slab",
+      "minecraft:yellow_concrete_slab",
+      "minecraft:yellow_concrete_stairs",
+      "minecraft:yellow_wool_double_slab",
+      "minecraft:yellow_wool_slab",
+      "minecraft:yellow_wool_stairs"
+    ],
+    "removed_block_names": [],
+    "changed_blocks": [
+      {
+        "name": "minecraft:acacia_button",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:acacia_fence",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:acacia_hanging_sign",
+        "current_states": 384,
+        "bds_states": 384
+      },
+      {
+        "name": "minecraft:acacia_pressure_plate",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:acacia_shelf",
+        "current_states": 32,
+        "bds_states": 32
+      },
+      {
+        "name": "minecraft:acacia_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:acacia_standing_sign",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:acacia_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:acacia_wall_sign",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:activator_rail",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:andesite_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:bamboo_button",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:bamboo_fence",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:bamboo_hanging_sign",
+        "current_states": 384,
+        "bds_states": 384
+      },
+      {
+        "name": "minecraft:bamboo_mosaic_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:bamboo_pressure_plate",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:bamboo_shelf",
+        "current_states": 32,
+        "bds_states": 32
+      },
+      {
+        "name": "minecraft:bamboo_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:bamboo_standing_sign",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:bamboo_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:bamboo_wall_sign",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:barrel",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:bed",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:bee_nest",
+        "current_states": 24,
+        "bds_states": 24
+      },
+      {
+        "name": "minecraft:beehive",
+        "current_states": 24,
+        "bds_states": 24
+      },
+      {
+        "name": "minecraft:beetroot",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:bell",
+        "current_states": 32,
+        "bds_states": 32
+      },
+      {
+        "name": "minecraft:birch_button",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:birch_fence",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:birch_hanging_sign",
+        "current_states": 384,
+        "bds_states": 384
+      },
+      {
+        "name": "minecraft:birch_pressure_plate",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:birch_shelf",
+        "current_states": 32,
+        "bds_states": 32
+      },
+      {
+        "name": "minecraft:birch_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:birch_standing_sign",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:birch_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:birch_wall_sign",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:black_candle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:black_glazed_terracotta",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:black_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:blackstone_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:blue_candle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:blue_glazed_terracotta",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:blue_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:bone_block",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:brain_coral_fan",
+        "current_states": 2,
+        "bds_states": 2
+      },
+      {
+        "name": "minecraft:brain_coral_wall_fan",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:brick_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:brown_candle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:brown_glazed_terracotta",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:brown_mushroom_block",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:brown_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:bubble_coral_fan",
+        "current_states": 2,
+        "bds_states": 2
+      },
+      {
+        "name": "minecraft:bubble_coral_wall_fan",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:cactus",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:cake",
+        "current_states": 7,
+        "bds_states": 7
+      },
+      {
+        "name": "minecraft:calibrated_sculk_sensor",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:candle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:carrots",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:cauldron",
+        "current_states": 21,
+        "bds_states": 21
+      },
+      {
+        "name": "minecraft:cave_vines",
+        "current_states": 26,
+        "bds_states": 26
+      },
+      {
+        "name": "minecraft:cave_vines_body_with_berries",
+        "current_states": 26,
+        "bds_states": 26
+      },
+      {
+        "name": "minecraft:cave_vines_head_with_berries",
+        "current_states": 26,
+        "bds_states": 26
+      },
+      {
+        "name": "minecraft:chain_command_block",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:chalkboard",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:cherry_button",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:cherry_fence",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:cherry_hanging_sign",
+        "current_states": 384,
+        "bds_states": 384
+      },
+      {
+        "name": "minecraft:cherry_pressure_plate",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:cherry_shelf",
+        "current_states": 32,
+        "bds_states": 32
+      },
+      {
+        "name": "minecraft:cherry_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:cherry_standing_sign",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:cherry_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:cherry_wall_sign",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:chiseled_bookshelf",
+        "current_states": 256,
+        "bds_states": 256
+      },
+      {
+        "name": "minecraft:chorus_flower",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:cinnabar_brick_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:cinnabar_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:cobbled_deepslate_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:cocoa",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:command_block",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:composter",
+        "current_states": 9,
+        "bds_states": 9
+      },
+      {
+        "name": "minecraft:compound_creator",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:copper_bars",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:copper_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:creeper_head",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:crimson_button",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:crimson_fence",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:crimson_hanging_sign",
+        "current_states": 384,
+        "bds_states": 384
+      },
+      {
+        "name": "minecraft:crimson_pressure_plate",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:crimson_shelf",
+        "current_states": 32,
+        "bds_states": 32
+      },
+      {
+        "name": "minecraft:crimson_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:crimson_standing_sign",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:crimson_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:crimson_wall_sign",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:cut_copper_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:cyan_candle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:cyan_glazed_terracotta",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:cyan_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:dark_oak_button",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:dark_oak_fence",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:dark_oak_hanging_sign",
+        "current_states": 384,
+        "bds_states": 384
+      },
+      {
+        "name": "minecraft:dark_oak_pressure_plate",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:dark_oak_shelf",
+        "current_states": 32,
+        "bds_states": 32
+      },
+      {
+        "name": "minecraft:dark_oak_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:dark_oak_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:dark_prismarine_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:darkoak_standing_sign",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:darkoak_wall_sign",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:daylight_detector",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:daylight_detector_inverted",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:dead_brain_coral_fan",
+        "current_states": 2,
+        "bds_states": 2
+      },
+      {
+        "name": "minecraft:dead_brain_coral_wall_fan",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:dead_bubble_coral_fan",
+        "current_states": 2,
+        "bds_states": 2
+      },
+      {
+        "name": "minecraft:dead_bubble_coral_wall_fan",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:dead_fire_coral_fan",
+        "current_states": 2,
+        "bds_states": 2
+      },
+      {
+        "name": "minecraft:dead_fire_coral_wall_fan",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:dead_horn_coral_fan",
+        "current_states": 2,
+        "bds_states": 2
+      },
+      {
+        "name": "minecraft:dead_horn_coral_wall_fan",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:dead_tube_coral_fan",
+        "current_states": 2,
+        "bds_states": 2
+      },
+      {
+        "name": "minecraft:dead_tube_coral_wall_fan",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:decorated_pot",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:deepslate_brick_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:deepslate_tile_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:detector_rail",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:diorite_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:dispenser",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:dragon_head",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:dried_ghast",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:dropper",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:element_constructor",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:end_brick_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:end_rod",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:exposed_copper_bars",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:exposed_copper_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:exposed_cut_copper_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:exposed_lightning_rod",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:farmland",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:fire",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:fire_coral_fan",
+        "current_states": 2,
+        "bds_states": 2
+      },
+      {
+        "name": "minecraft:fire_coral_wall_fan",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:flowing_lava",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:flowing_water",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:frame",
+        "current_states": 24,
+        "bds_states": 24
+      },
+      {
+        "name": "minecraft:frosted_ice",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:glow_frame",
+        "current_states": 24,
+        "bds_states": 24
+      },
+      {
+        "name": "minecraft:glow_lichen",
+        "current_states": 64,
+        "bds_states": 64
+      },
+      {
+        "name": "minecraft:golden_rail",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:granite_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:gray_candle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:gray_glazed_terracotta",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:gray_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:green_candle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:green_glazed_terracotta",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:green_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:grindstone",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hard_black_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hard_blue_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hard_brown_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hard_cyan_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hard_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hard_gray_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hard_green_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hard_light_blue_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hard_light_gray_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hard_lime_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hard_magenta_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hard_orange_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hard_pink_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hard_purple_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hard_red_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hard_white_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hard_yellow_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hay_block",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:heavy_weighted_pressure_plate",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:hopper",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:horn_coral_fan",
+        "current_states": 2,
+        "bds_states": 2
+      },
+      {
+        "name": "minecraft:horn_coral_wall_fan",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:iron_bars",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:iron_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:jigsaw",
+        "current_states": 24,
+        "bds_states": 24
+      },
+      {
+        "name": "minecraft:jungle_button",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:jungle_fence",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:jungle_hanging_sign",
+        "current_states": 384,
+        "bds_states": 384
+      },
+      {
+        "name": "minecraft:jungle_pressure_plate",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:jungle_shelf",
+        "current_states": 32,
+        "bds_states": 32
+      },
+      {
+        "name": "minecraft:jungle_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:jungle_standing_sign",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:jungle_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:jungle_wall_sign",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:kelp",
+        "current_states": 26,
+        "bds_states": 26
+      },
+      {
+        "name": "minecraft:lab_table",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:ladder",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:lava",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:leaf_litter",
+        "current_states": 32,
+        "bds_states": 32
+      },
+      {
+        "name": "minecraft:light_blue_candle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:light_blue_glazed_terracotta",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:light_blue_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:light_gray_candle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:light_gray_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:light_weighted_pressure_plate",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:lightning_rod",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:lime_candle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:lime_glazed_terracotta",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:lime_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:loom",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:magenta_candle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:magenta_glazed_terracotta",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:magenta_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:mangrove_button",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:mangrove_fence",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:mangrove_hanging_sign",
+        "current_states": 384,
+        "bds_states": 384
+      },
+      {
+        "name": "minecraft:mangrove_pressure_plate",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:mangrove_propagule",
+        "current_states": 10,
+        "bds_states": 10
+      },
+      {
+        "name": "minecraft:mangrove_shelf",
+        "current_states": 32,
+        "bds_states": 32
+      },
+      {
+        "name": "minecraft:mangrove_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:mangrove_standing_sign",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:mangrove_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:mangrove_wall_sign",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:material_reducer",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:melon_stem",
+        "current_states": 48,
+        "bds_states": 48
+      },
+      {
+        "name": "minecraft:mossy_cobblestone_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:mossy_stone_brick_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:mud_brick_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:mushroom_stem",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:nether_brick_fence",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:nether_brick_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:nether_wart",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:normal_stone_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:oak_fence",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:oak_hanging_sign",
+        "current_states": 384,
+        "bds_states": 384
+      },
+      {
+        "name": "minecraft:oak_shelf",
+        "current_states": 32,
+        "bds_states": 32
+      },
+      {
+        "name": "minecraft:oak_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:orange_candle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:orange_glazed_terracotta",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:orange_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:oxidized_copper_bars",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:oxidized_copper_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:oxidized_cut_copper_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:oxidized_lightning_rod",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:pale_oak_button",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:pale_oak_fence",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:pale_oak_hanging_sign",
+        "current_states": 384,
+        "bds_states": 384
+      },
+      {
+        "name": "minecraft:pale_oak_pressure_plate",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:pale_oak_shelf",
+        "current_states": 32,
+        "bds_states": 32
+      },
+      {
+        "name": "minecraft:pale_oak_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:pale_oak_standing_sign",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:pale_oak_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:pale_oak_wall_sign",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:piglin_head",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:pink_candle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:pink_glazed_terracotta",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:pink_petals",
+        "current_states": 32,
+        "bds_states": 32
+      },
+      {
+        "name": "minecraft:pink_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:piston",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:piston_arm_collision",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:pitcher_crop",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:player_head",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:polished_andesite_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:polished_blackstone_brick_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:polished_blackstone_button",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:polished_blackstone_pressure_plate",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:polished_blackstone_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:polished_cinnabar_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:polished_deepslate_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:polished_diorite_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:polished_granite_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:polished_sulfur_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:polished_tuff_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:poplar_button",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:poplar_fence",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:poplar_hanging_sign",
+        "current_states": 384,
+        "bds_states": 384
+      },
+      {
+        "name": "minecraft:poplar_pressure_plate",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:poplar_shelf",
+        "current_states": 32,
+        "bds_states": 32
+      },
+      {
+        "name": "minecraft:poplar_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:poplar_standing_sign",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:poplar_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:poplar_wall_sign",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:potatoes",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:powered_repeater",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:prismarine_bricks_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:prismarine_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:pumpkin_stem",
+        "current_states": 48,
+        "bds_states": 48
+      },
+      {
+        "name": "minecraft:purple_candle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:purple_glazed_terracotta",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:purple_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:purpur_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:quartz_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:rail",
+        "current_states": 10,
+        "bds_states": 10
+      },
+      {
+        "name": "minecraft:red_candle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:red_glazed_terracotta",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:red_mushroom_block",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:red_nether_brick_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:red_sandstone_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:red_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:redstone_wire",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:reeds",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:repeating_command_block",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:resin_brick_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:resin_clump",
+        "current_states": 64,
+        "bds_states": 64
+      },
+      {
+        "name": "minecraft:respawn_anchor",
+        "current_states": 5,
+        "bds_states": 5
+      },
+      {
+        "name": "minecraft:sandstone_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:scaffolding",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:sculk_sensor",
+        "current_states": 3,
+        "bds_states": 3
+      },
+      {
+        "name": "minecraft:sculk_vein",
+        "current_states": 64,
+        "bds_states": 64
+      },
+      {
+        "name": "minecraft:sea_pickle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:silver_glazed_terracotta",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:skeleton_skull",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:smooth_quartz_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:smooth_red_sandstone_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:smooth_sandstone_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:snow_layer",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:soul_fire",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:spruce_button",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:spruce_fence",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:spruce_hanging_sign",
+        "current_states": 384,
+        "bds_states": 384
+      },
+      {
+        "name": "minecraft:spruce_pressure_plate",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:spruce_shelf",
+        "current_states": 32,
+        "bds_states": 32
+      },
+      {
+        "name": "minecraft:spruce_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:spruce_standing_sign",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:spruce_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:spruce_wall_sign",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:standing_banner",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:standing_sign",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:sticky_piston",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:sticky_piston_arm_collision",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:stone_brick_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:stone_button",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:stone_pressure_plate",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:stone_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:sulfur_brick_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:sulfur_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:suspicious_gravel",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:suspicious_sand",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:sweet_berry_bush",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:torchflower_crop",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:trial_spawner",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:trip_wire",
+        "current_states": 16,
+        "bds_states": 256
+      },
+      {
+        "name": "minecraft:tripwire_hook",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:tube_coral_fan",
+        "current_states": 2,
+        "bds_states": 2
+      },
+      {
+        "name": "minecraft:tube_coral_wall_fan",
+        "current_states": 4,
+        "bds_states": 4
+      },
+      {
+        "name": "minecraft:tuff_brick_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:tuff_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:twisting_vines",
+        "current_states": 26,
+        "bds_states": 26
+      },
+      {
+        "name": "minecraft:unpowered_repeater",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:vine",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:wall_banner",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:wall_sign",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:warped_button",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:warped_fence",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:warped_hanging_sign",
+        "current_states": 384,
+        "bds_states": 384
+      },
+      {
+        "name": "minecraft:warped_pressure_plate",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:warped_shelf",
+        "current_states": 32,
+        "bds_states": 32
+      },
+      {
+        "name": "minecraft:warped_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:warped_standing_sign",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:warped_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:warped_wall_sign",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:water",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:waxed_copper_bars",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:waxed_copper_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:waxed_cut_copper_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:waxed_exposed_copper_bars",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:waxed_exposed_copper_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:waxed_exposed_cut_copper_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:waxed_exposed_lightning_rod",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:waxed_lightning_rod",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:waxed_oxidized_copper_bars",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:waxed_oxidized_copper_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:waxed_oxidized_cut_copper_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:waxed_oxidized_lightning_rod",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:waxed_weathered_copper_bars",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:waxed_weathered_copper_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:waxed_weathered_cut_copper_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:waxed_weathered_lightning_rod",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:weathered_copper_bars",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:weathered_copper_trapdoor",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:weathered_cut_copper_stairs",
+        "current_states": 8,
+        "bds_states": 40
+      },
+      {
+        "name": "minecraft:weathered_lightning_rod",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:weeping_vines",
+        "current_states": 26,
+        "bds_states": 26
+      },
+      {
+        "name": "minecraft:wheat",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:white_candle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:white_glazed_terracotta",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:white_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:wildflowers",
+        "current_states": 32,
+        "bds_states": 32
+      },
+      {
+        "name": "minecraft:wither_skeleton_skull",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:wooden_button",
+        "current_states": 12,
+        "bds_states": 12
+      },
+      {
+        "name": "minecraft:wooden_pressure_plate",
+        "current_states": 16,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:yellow_candle",
+        "current_states": 8,
+        "bds_states": 8
+      },
+      {
+        "name": "minecraft:yellow_glazed_terracotta",
+        "current_states": 6,
+        "bds_states": 6
+      },
+      {
+        "name": "minecraft:yellow_stained_glass_pane",
+        "current_states": 1,
+        "bds_states": 16
+      },
+      {
+        "name": "minecraft:zombie_head",
+        "current_states": 6,
+        "bds_states": 6
+      }
+    ],
+    "connection_properties": {
+      "wall_connection_type_east": [
+        "none",
+        "short",
+        "tall"
+      ],
+      "wall_connection_type_north": [
+        "none",
+        "short",
+        "tall"
+      ],
+      "wall_connection_type_south": [
+        "none",
+        "short",
+        "tall"
+      ],
+      "wall_connection_type_west": [
+        "none",
+        "short",
+        "tall"
+      ],
+      "wall_post_bit": [
+        "0",
+        "1"
+      ],
+      "minecraft:connection_east": [
+        "0",
+        "1"
+      ],
+      "minecraft:connection_north": [
+        "0",
+        "1"
+      ],
+      "minecraft:connection_south": [
+        "0",
+        "1"
+      ],
+      "minecraft:connection_west": [
+        "0",
+        "1"
+      ],
+      "in_wall_bit": [
+        "0",
+        "1"
+      ],
+      "minecraft:corner": [
+        "inner_left",
+        "inner_right",
+        "none",
+        "outer_left",
+        "outer_right"
+      ],
+      "pale_moss_carpet_side_east": [
+        "none",
+        "short",
+        "tall"
+      ],
+      "pale_moss_carpet_side_north": [
+        "none",
+        "short",
+        "tall"
+      ],
+      "pale_moss_carpet_side_south": [
+        "none",
+        "short",
+        "tall"
+      ],
+      "pale_moss_carpet_side_west": [
+        "none",
+        "short",
+        "tall"
+      ]
+    },
+    "meta_mapping": {
+      "exact": 11208,
+      "rank": 9466,
+      "oldrank": 0,
+      "zero": 1417
+    }
+  },
+  "items": {
+    "bds_total": 2076,
+    "current_total": 1976,
+    "new": [
+      "minecraft:black_concrete_double_slab",
+      "minecraft:black_concrete_slab",
+      "minecraft:black_concrete_stairs",
+      "minecraft:black_wool_double_slab",
+      "minecraft:black_wool_slab",
+      "minecraft:black_wool_stairs",
+      "minecraft:blue_concrete_double_slab",
+      "minecraft:blue_concrete_slab",
+      "minecraft:blue_concrete_stairs",
+      "minecraft:blue_wool_double_slab",
+      "minecraft:blue_wool_slab",
+      "minecraft:blue_wool_stairs",
+      "minecraft:brown_concrete_double_slab",
+      "minecraft:brown_concrete_slab",
+      "minecraft:brown_concrete_stairs",
+      "minecraft:brown_wool_double_slab",
+      "minecraft:brown_wool_slab",
+      "minecraft:brown_wool_stairs",
+      "minecraft:cyan_concrete_double_slab",
+      "minecraft:cyan_concrete_slab",
+      "minecraft:cyan_concrete_stairs",
+      "minecraft:cyan_wool_double_slab",
+      "minecraft:cyan_wool_slab",
+      "minecraft:cyan_wool_stairs",
+      "minecraft:gray_concrete_double_slab",
+      "minecraft:gray_concrete_slab",
+      "minecraft:gray_concrete_stairs",
+      "minecraft:gray_wool_double_slab",
+      "minecraft:gray_wool_slab",
+      "minecraft:gray_wool_stairs",
+      "minecraft:green_concrete_double_slab",
+      "minecraft:green_concrete_slab",
+      "minecraft:green_concrete_stairs",
+      "minecraft:green_wool_double_slab",
+      "minecraft:green_wool_slab",
+      "minecraft:green_wool_stairs",
+      "minecraft:light_blue_concrete_double_slab",
+      "minecraft:light_blue_concrete_slab",
+      "minecraft:light_blue_concrete_stairs",
+      "minecraft:light_blue_wool_double_slab",
+      "minecraft:light_blue_wool_slab",
+      "minecraft:light_blue_wool_stairs",
+      "minecraft:light_gray_concrete_double_slab",
+      "minecraft:light_gray_concrete_slab",
+      "minecraft:light_gray_concrete_stairs",
+      "minecraft:light_gray_wool_double_slab",
+      "minecraft:light_gray_wool_slab",
+      "minecraft:light_gray_wool_stairs",
+      "minecraft:lime_concrete_double_slab",
+      "minecraft:lime_concrete_slab",
+      "minecraft:lime_concrete_stairs",
+      "minecraft:lime_wool_double_slab",
+      "minecraft:lime_wool_slab",
+      "minecraft:lime_wool_stairs",
+      "minecraft:magenta_concrete_double_slab",
+      "minecraft:magenta_concrete_slab",
+      "minecraft:magenta_concrete_stairs",
+      "minecraft:magenta_wool_double_slab",
+      "minecraft:magenta_wool_slab",
+      "minecraft:magenta_wool_stairs",
+      "minecraft:orange_concrete_double_slab",
+      "minecraft:orange_concrete_slab",
+      "minecraft:orange_concrete_stairs",
+      "minecraft:orange_wool_double_slab",
+      "minecraft:orange_wool_slab",
+      "minecraft:orange_wool_stairs",
+      "minecraft:photo_item",
+      "minecraft:pink_concrete_double_slab",
+      "minecraft:pink_concrete_slab",
+      "minecraft:pink_concrete_stairs",
+      "minecraft:pink_wool_double_slab",
+      "minecraft:pink_wool_slab",
+      "minecraft:pink_wool_stairs",
+      "minecraft:portfolio",
+      "minecraft:purple_concrete_double_slab",
+      "minecraft:purple_concrete_slab",
+      "minecraft:purple_concrete_stairs",
+      "minecraft:purple_wool_double_slab",
+      "minecraft:purple_wool_slab",
+      "minecraft:purple_wool_stairs",
+      "minecraft:red_concrete_double_slab",
+      "minecraft:red_concrete_slab",
+      "minecraft:red_concrete_stairs",
+      "minecraft:red_shrub",
+      "minecraft:red_wool_double_slab",
+      "minecraft:red_wool_slab",
+      "minecraft:red_wool_stairs",
+      "minecraft:shelf_mushroom",
+      "minecraft:white_concrete_double_slab",
+      "minecraft:white_concrete_slab",
+      "minecraft:white_concrete_stairs",
+      "minecraft:white_wool_double_slab",
+      "minecraft:white_wool_slab",
+      "minecraft:white_wool_stairs",
+      "minecraft:yellow_concrete_double_slab",
+      "minecraft:yellow_concrete_slab",
+      "minecraft:yellow_concrete_stairs",
+      "minecraft:yellow_wool_double_slab",
+      "minecraft:yellow_wool_slab",
+      "minecraft:yellow_wool_stairs"
+    ],
+    "removed": [],
+    "changed": [
+      "minecraft:acacia_chest_boat",
+      "minecraft:allay_spawn_egg",
+      "minecraft:amethyst_shard",
+      "minecraft:angler_pottery_sherd",
+      "minecraft:apple",
+      "minecraft:archer_pottery_sherd",
+      "minecraft:armadillo_scute",
+      "minecraft:armadillo_spawn_egg",
+      "minecraft:arms_up_pottery_sherd",
+      "minecraft:baked_potato",
+      "minecraft:balloon",
+      "minecraft:bamboo_chest_raft",
+      "minecraft:bamboo_raft",
+      "minecraft:bamboo_sign",
+      "minecraft:banner_pattern",
+      "minecraft:beef",
+      "minecraft:beetroot",
+      "minecraft:beetroot_seeds",
+      "minecraft:beetroot_soup",
+      "minecraft:birch_chest_boat",
+      "minecraft:black_bundle",
+      "minecraft:black_cushion",
+      "minecraft:black_harness",
+      "minecraft:blade_pottery_sherd",
+      "minecraft:bleach",
+      "minecraft:blue_bundle",
+      "minecraft:blue_cushion",
+      "minecraft:blue_egg",
+      "minecraft:blue_harness",
+      "minecraft:boat",
+      "minecraft:bolt_armor_trim_smithing_template",
+      "minecraft:bread",
+      "minecraft:breeze_rod",
+      "minecraft:brewer_pottery_sherd",
+      "minecraft:brown_bundle",
+      "minecraft:brown_cushion",
+      "minecraft:brown_egg",
+      "minecraft:brown_harness",
+      "minecraft:brush",
+      "minecraft:bundle",
+      "minecraft:burn_pottery_sherd",
+      "minecraft:camel_husk_spawn_egg",
+      "minecraft:camel_spawn_egg",
+      "minecraft:camera",
+      "minecraft:carpet",
+      "minecraft:carrot",
+      "minecraft:chemistry_table",
+      "minecraft:cherry_boat",
+      "minecraft:cherry_chest_boat",
+      "minecraft:cherry_sign",
+      "minecraft:chest_boat",
+      "minecraft:chicken",
+      "minecraft:chorus_fruit",
+      "minecraft:coast_armor_trim_smithing_template",
+      "minecraft:cod",
+      "minecraft:colored_torch_bp",
+      "minecraft:colored_torch_rg",
+      "minecraft:compound",
+      "minecraft:concrete",
+      "minecraft:concrete_powder",
+      "minecraft:cooked_beef",
+      "minecraft:cooked_chicken",
+      "minecraft:cooked_cod",
+      "minecraft:cooked_mutton",
+      "minecraft:cooked_porkchop",
+      "minecraft:cooked_rabbit",
+      "minecraft:cooked_salmon",
+      "minecraft:cookie",
+      "minecraft:copper_axe",
+      "minecraft:copper_boots",
+      "minecraft:copper_chestplate",
+      "minecraft:copper_golem_spawn_egg",
+      "minecraft:copper_helmet",
+      "minecraft:copper_hoe",
+      "minecraft:copper_horse_armor",
+      "minecraft:copper_leggings",
+      "minecraft:copper_nautilus_armor",
+      "minecraft:copper_nugget",
+      "minecraft:copper_pickaxe",
+      "minecraft:copper_shovel",
+      "minecraft:copper_spear",
+      "minecraft:copper_sword",
+      "minecraft:coral",
+      "minecraft:coral_block",
+      "minecraft:coral_fan",
+      "minecraft:coral_fan_dead",
+      "minecraft:creaking_spawn_egg",
+      "minecraft:crimson_door",
+      "minecraft:crimson_sign",
+      "minecraft:cyan_bundle",
+      "minecraft:cyan_cushion",
+      "minecraft:cyan_harness",
+      "minecraft:danger_pottery_sherd",
+      "minecraft:dark_oak_chest_boat",
+      "minecraft:diamond_nautilus_armor",
+      "minecraft:diamond_spear",
+      "minecraft:disc_fragment_5",
+      "minecraft:double_plant",
+      "minecraft:double_stone_block_slab",
+      "minecraft:double_stone_block_slab2",
+      "minecraft:double_stone_block_slab3",
+      "minecraft:double_stone_block_slab4",
+      "minecraft:dried_kelp",
+      "minecraft:dune_armor_trim_smithing_template",
+      "minecraft:dye",
+      "minecraft:echo_shard",
+      "minecraft:enchanted_golden_apple",
+      "minecraft:end_crystal",
+      "minecraft:explorer_pottery_sherd",
+      "minecraft:eye_armor_trim_smithing_template",
+      "minecraft:fence",
+      "minecraft:flow_armor_trim_smithing_template",
+      "minecraft:flow_pottery_sherd",
+      "minecraft:friend_pottery_sherd",
+      "minecraft:frog_spawn_egg",
+      "minecraft:glow_berries",
+      "minecraft:glow_frame",
+      "minecraft:glow_stick",
+      "minecraft:goat_horn",
+      "minecraft:golden_apple",
+      "minecraft:golden_carrot",
+      "minecraft:golden_nautilus_armor",
+      "minecraft:golden_spear",
+      "minecraft:gray_bundle",
+      "minecraft:gray_cushion",
+      "minecraft:gray_harness",
+      "minecraft:green_bundle",
+      "minecraft:green_cushion",
+      "minecraft:green_harness",
+      "minecraft:guster_pottery_sherd",
+      "minecraft:happy_ghast_spawn_egg",
+      "minecraft:hard_stained_glass",
+      "minecraft:hard_stained_glass_pane",
+      "minecraft:heart_pottery_sherd",
+      "minecraft:heartbreak_pottery_sherd",
+      "minecraft:honey_bottle",
+      "minecraft:honeycomb",
+      "minecraft:host_armor_trim_smithing_template",
+      "minecraft:howl_pottery_sherd",
+      "minecraft:ice_bomb",
+      "minecraft:iron_nautilus_armor",
+      "minecraft:iron_spear",
+      "minecraft:jungle_chest_boat",
+      "minecraft:leaves",
+      "minecraft:leaves2",
+      "minecraft:light_block",
+      "minecraft:light_blue_bundle",
+      "minecraft:light_blue_cushion",
+      "minecraft:light_blue_harness",
+      "minecraft:light_gray_bundle",
+      "minecraft:light_gray_cushion",
+      "minecraft:light_gray_harness",
+      "minecraft:lime_bundle",
+      "minecraft:lime_cushion",
+      "minecraft:lime_harness",
+      "minecraft:lodestone_compass",
+      "minecraft:log",
+      "minecraft:log2",
+      "minecraft:magenta_bundle",
+      "minecraft:magenta_cushion",
+      "minecraft:magenta_harness",
+      "minecraft:mangrove_boat",
+      "minecraft:mangrove_chest_boat",
+      "minecraft:mangrove_door",
+      "minecraft:mangrove_sign",
+      "minecraft:medicine",
+      "minecraft:melon_seeds",
+      "minecraft:melon_slice",
+      "minecraft:miner_pottery_sherd",
+      "minecraft:monster_egg",
+      "minecraft:mourner_pottery_sherd",
+      "minecraft:mushroom_stew",
+      "minecraft:music_disc_5",
+      "minecraft:music_disc_bounce",
+      "minecraft:music_disc_creator",
+      "minecraft:music_disc_creator_music_box",
+      "minecraft:music_disc_lava_chicken",
+      "minecraft:music_disc_otherside",
+      "minecraft:music_disc_pigstep",
+      "minecraft:music_disc_precipice",
+      "minecraft:music_disc_relic",
+      "minecraft:music_disc_tears",
+      "minecraft:mutton",
+      "minecraft:nautilus_spawn_egg",
+      "minecraft:nether_sprouts",
+      "minecraft:nether_wart",
+      "minecraft:netherite_axe",
+      "minecraft:netherite_boots",
+      "minecraft:netherite_chestplate",
+      "minecraft:netherite_helmet",
+      "minecraft:netherite_hoe",
+      "minecraft:netherite_horse_armor",
+      "minecraft:netherite_ingot",
+      "minecraft:netherite_leggings",
+      "minecraft:netherite_nautilus_armor",
+      "minecraft:netherite_pickaxe",
+      "minecraft:netherite_scrap",
+      "minecraft:netherite_shovel",
+      "minecraft:netherite_spear",
+      "minecraft:netherite_sword",
+      "minecraft:netherite_upgrade_smithing_template",
+      "minecraft:oak_chest_boat",
+      "minecraft:ominous_trial_key",
+      "minecraft:orange_bundle",
+      "minecraft:orange_cushion",
+      "minecraft:orange_harness",
+      "minecraft:pale_oak_boat",
+      "minecraft:pale_oak_chest_boat",
+      "minecraft:pale_oak_sign",
+      "minecraft:parched_spawn_egg",
+      "minecraft:pink_bundle",
+      "minecraft:pink_cushion",
+      "minecraft:pink_harness",
+      "minecraft:pitcher_pod",
+      "minecraft:planks",
+      "minecraft:plenty_pottery_sherd",
+      "minecraft:poisonous_potato",
+      "minecraft:poplar_boat",
+      "minecraft:poplar_chest_boat",
+      "minecraft:poplar_sign",
+      "minecraft:porkchop",
+      "minecraft:potato",
+      "minecraft:prize_pottery_sherd",
+      "minecraft:pufferfish",
+      "minecraft:pumpkin_pie",
+      "minecraft:pumpkin_seeds",
+      "minecraft:purple_bundle",
+      "minecraft:purple_cushion",
+      "minecraft:purple_harness",
+      "minecraft:rabbit",
+      "minecraft:rabbit_stew",
+      "minecraft:raiser_armor_trim_smithing_template",
+      "minecraft:rapid_fertilizer",
+      "minecraft:recovery_compass",
+      "minecraft:red_bundle",
+      "minecraft:red_cushion",
+      "minecraft:red_flower",
+      "minecraft:red_harness",
+      "minecraft:resin_brick",
+      "minecraft:rib_armor_trim_smithing_template",
+      "minecraft:rotten_flesh",
+      "minecraft:salmon",
+      "minecraft:sapling",
+      "minecraft:scrape_pottery_sherd",
+      "minecraft:sentry_armor_trim_smithing_template",
+      "minecraft:shaper_armor_trim_smithing_template",
+      "minecraft:sheaf_pottery_sherd",
+      "minecraft:shelter_pottery_sherd",
+      "minecraft:shulker_box",
+      "minecraft:silence_armor_trim_smithing_template",
+      "minecraft:skull",
+      "minecraft:skull_pottery_sherd",
+      "minecraft:snort_pottery_sherd",
+      "minecraft:snout_armor_trim_smithing_template",
+      "minecraft:soul_campfire",
+      "minecraft:sparkler",
+      "minecraft:spawn_egg",
+      "minecraft:spider_eye",
+      "minecraft:spire_armor_trim_smithing_template",
+      "minecraft:spruce_chest_boat",
+      "minecraft:spyglass",
+      "minecraft:stained_glass",
+      "minecraft:stained_glass_pane",
+      "minecraft:stained_hardened_clay",
+      "minecraft:stone_block_slab",
+      "minecraft:stone_block_slab2",
+      "minecraft:stone_block_slab3",
+      "minecraft:stone_block_slab4",
+      "minecraft:stone_spear",
+      "minecraft:stonebrick",
+      "minecraft:straw_bed",
+      "minecraft:sulfur_cube_bucket",
+      "minecraft:sulfur_cube_spawn_egg",
+      "minecraft:suspicious_stew",
+      "minecraft:sweet_berries",
+      "minecraft:tadpole_bucket",
+      "minecraft:tadpole_spawn_egg",
+      "minecraft:tallgrass",
+      "minecraft:tide_armor_trim_smithing_template",
+      "minecraft:torchflower_seeds",
+      "minecraft:trader_llama_spawn_egg",
+      "minecraft:trial_key",
+      "minecraft:tropical_fish",
+      "minecraft:vex_armor_trim_smithing_template",
+      "minecraft:ward_armor_trim_smithing_template",
+      "minecraft:warden_spawn_egg",
+      "minecraft:warped_door",
+      "minecraft:warped_fungus_on_a_stick",
+      "minecraft:warped_sign",
+      "minecraft:wayfinder_armor_trim_smithing_template",
+      "minecraft:wheat_seeds",
+      "minecraft:white_bundle",
+      "minecraft:white_cushion",
+      "minecraft:white_harness",
+      "minecraft:wild_armor_trim_smithing_template",
+      "minecraft:wind_charge",
+      "minecraft:wolf_armor",
+      "minecraft:wood",
+      "minecraft:wooden_slab",
+      "minecraft:wooden_spear",
+      "minecraft:wool",
+      "minecraft:yellow_bundle",
+      "minecraft:yellow_cushion",
+      "minecraft:yellow_harness",
+      "minecraft:zombie_nautilus_spawn_egg"
+    ]
+  },
+  "item_tags": {
+    "bds_total": 77,
+    "current_total": 77,
+    "changed_tags": [
+      "minecraft:mushrooms_for_stew",
+      "minecraft:vibration_damper"
+    ]
+  },
+  "block_map": {
+    "bds_block_types": 1477,
+    "current_mappings": 1343,
+    "generated_mappings": 1477
+  },
+  "block_properties": {
+    "bds_block_types": 1477,
+    "resolved": 1477,
+    "new_block_types": 98
+  }
+}
