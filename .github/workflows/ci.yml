@@ -1,0 +1,48 @@
+name: BedrockData validation
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Composer manifest, JSON assets and essential Bedrock NBT files
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          manifest = json.loads(Path("composer.json").read_text(encoding="utf-8"))
+          assert manifest["type"] == "library"
+          assert manifest["license"] == "CC0-1.0"
+
+          data_files = list(Path(".").rglob("*.json"))
+          assert len(data_files) > 20, "Unexpectedly small BedrockData JSON asset set"
+          for path in data_files:
+              try:
+                  json.loads(path.read_text(encoding="utf-8"))
+              except (ValueError, UnicodeError) as exc:
+                  raise AssertionError(f"Invalid JSON asset {path}: {exc}") from exc
+
+          essentials = [
+              "canonical_block_states.nbt",
+              "biome_definitions.nbt",
+              "item_registry.json",
+              "required_item_list.json",
+              "protocol_info.json",
+          ]
+          for name in essentials:
+              path = Path(name)
+              assert path.is_file() and path.stat().st_size > 100, f"Missing or empty Bedrock data asset: {name}"
+
+          print(f"Validated {len(data_files)} JSON files and {len(essentials)} required assets")
+          PY

@@ -1,5 +1,5 @@
 # BedrockData
-Blobs of data generated from Minecraft: Bedrock Edition used by PocketMine-MP
+Blobs of data generated from Minecraft: Bedrock Edition used by RyzeMP (PocketMine-MP 5-compatible)
 
 <table>
  <thead>
@@ -158,3 +158,9 @@ Blobs of data generated from Minecraft: Bedrock Edition used by PocketMine-MP
   </tr>
  </tbody>
 </table>
+
+
+## RyzeMCBE project stewardship
+
+This repository is maintained by [RyzeMCBE](https://github.com/RyzeMCBE) as a dependency of [RyzeMP](https://github.com/RyzeMCBE/RyzeMP).
+The original upstream contributors, source licenses, and compatibility-oriented PHP namespaces remain acknowledged and unchanged.
