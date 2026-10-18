@@ -14,6 +14,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+      - name: Verify historical 1.16.100 snapshot and registry integrity
+        run: python3 tools/validate-legacy-data.py
       - name: Validate Composer manifest, JSON assets and essential Bedrock NBT files
         shell: bash
         run: |
