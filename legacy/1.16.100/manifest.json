@@ -1,0 +1,54 @@
+{
+    "minecraft_version": "1.16.100",
+    "protocol": 419,
+    "status": "reference-data-only",
+    "source_repository": "https://github.com/pmmp/BedrockData",
+    "source_commit": "14f4a765eba40b2c65c6dcd061cbfea6e1d3d4cc",
+    "files": {
+        "canonical_block_states.nbt": {
+            "sha256": "23ceac32f48fa15b5a8125a4455c84f1687ca93fd87cdf5b7e3ed1c72cc2c224",
+            "upstream_git_blob": "b2b11c99752a4ed3b7999c3eab51f89cbf31776d",
+            "size": 981311
+        },
+        "required_item_list.json": {
+            "sha256": "713238193e4950551c0582c9241fe9fd072e4e930caf2d9a1b7b9cb9c2b9fc97",
+            "upstream_git_blob": "5af71e24773af466205ad24ee06a5287de36ca6b",
+            "size": 91328
+        },
+        "recipes.json": {
+            "sha256": "bc6595e921dbeb3e273f0530ca93a853c90fab426c25a091b3c04fc616eb471a",
+            "upstream_git_blob": "0647aad0c8a16c4fba29274a93d94df979c91de7",
+            "size": 1147103
+        },
+        "item_id_map.json": {
+            "sha256": "81750383c748941bf18a11d123d0cf5fa208fd3f57e1cdfe1385fc68f77fbe72",
+            "upstream_git_blob": "f8bf5c2219543ac038d5a440a08a9fca528a5423",
+            "size": 28615
+        },
+        "r12_to_current_block_map.bin": {
+            "sha256": "dd32f5486755332b3fe7cfc60ce97a6cc6b9c00b736fe15d61a244aad33aeb57",
+            "upstream_git_blob": "6e97d57c368b7e9e711605e76091afe17be00405",
+            "size": 370037
+        },
+        "biome_definitions.nbt": {
+            "sha256": "b5a4c9017b637821b3ef650e00d7c343a0927f92d49277e1e874f292baae24f4",
+            "upstream_git_blob": "68705c5d4f97c43f712894fcf5f25cb07bcf5892",
+            "size": 37626
+        },
+        "entity_identifiers.nbt": {
+            "sha256": "97fdf0a911c6f02bb86cd7abbbb80a34377e423c26fca7ced655d54c8a966b62",
+            "upstream_git_blob": "e69ff117a9b1051df652462b31858a65330592bb",
+            "size": 7193
+        },
+        "entity_id_map.json": {
+            "sha256": "495c815be08cba0a395a41bc1804e49deaa15739f461b7f3e9d7b7aedacbe14f",
+            "upstream_git_blob": "685d566d34850c113f8d07bf9fdd4255d30e0225",
+            "size": 3476
+        },
+        "LICENSE": {
+            "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+            "upstream_git_blob": "65c5ca88a67c30becee01c5a8816d964b03862f9",
+            "size": 7651
+        }
+    }
+}
