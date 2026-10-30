@@ -1,6 +1,16 @@
 # BedrockData
 Blobs of data generated from Minecraft: Bedrock Edition used by RyzeMP (PocketMine-MP 5-compatible)
 
+## Install with Composer
+
+Published package: [ryzemcbe/bedrock-data](https://packagist.org/packages/ryzemcbe/bedrock-data).
+
+```bash
+composer require ryzemcbe/bedrock-data:1.0.0-beta.1
+```
+
+This package contains JSON/NBT data assets and has no runtime PHP dependencies. In a clone of this repository, `composer validate --no-check-publish` and `composer install` verify its Composer metadata. Publish new compatible versions using Git tags and keep Packagist synchronized through its GitHub hook.
+
 <table>
  <thead>
   <td>File</td>
