@@ -12,7 +12,11 @@ import gzip
 import json
 from io import BytesIO
 from pathlib import Path
-from convert_endstone_12660 import be_string, big_payload, exact
+import runpy
+_helpers = runpy.run_path(str(Path(__file__).with_name('convert-endstone-12660.py')))
+be_string = _helpers['be_string']
+big_payload = _helpers['big_payload']
+exact = _helpers['exact']
 
 def read_components(path: Path) -> dict:
     stream = BytesIO(gzip.decompress(path.read_bytes()))
