@@ -1,0 +1,52 @@
+name: Import verified Endstone BDS 1.26.60 data
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feature/bedrock-1.26.60-nethernet
+    paths:
+      - tools/import-endstone-12660.py
+      - .github/workflows/import-endstone-12660.yml
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Download original Endstone Linux artifact (run 40758269886)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/endstone"
+          gh run download 40758269886 \
+            -R RyzeMCBE/endstone \
+            -n vanilla-bds-1.26.60-linux-40758269886 \
+            -D "$RUNNER_TEMP/endstone"
+      - name: Validate and import schema-safe data
+        run: python3 tools/import-endstone-12660.py "$RUNNER_TEMP/endstone"
+      - name: Check generated artifacts
+        run: |
+          python3 -m py_compile tools/import-endstone-12660.py
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          values = json.loads(Path("block_network_ids-1.26.60.json").read_text())
+          assert len(values) == len(set(values)) == 23960
+          tags = json.loads(Path("item_tags-1.26.60.json").read_text())
+          assert isinstance(tags, dict) and tags
+          PY
+      - name: Commit verified versioned assets to this branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add block_network_ids-1.26.60.json item_tags-1.26.60.json docs/endstone-1.26.60-manifest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: import verified BDS 1.26.60 network hashes and item tags"
+            git push origin HEAD:feature/bedrock-1.26.60-nethernet
+          fi
