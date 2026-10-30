@@ -14,7 +14,16 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Validate Composer manifest, JSON assets and essential Bedrock NBT files
+      - name: Setup PHP and Composer
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          tools: composer:v2
+      - name: Validate Composer package manifest
+        run: composer validate --no-check-publish --no-interaction
+      - name: Verify Composer dependency installation
+        run: composer install --prefer-dist --no-interaction --no-progress
+      - name: Validate JSON assets and essential Bedrock NBT files
         shell: bash
         run: |
           python3 - <<'PY'
