@@ -23,6 +23,22 @@ def be_string(stream):
 def big_payload(stream, typ):
     if typ in (1, 2, 3, 4):
         return struct.unpack({1: '>b', 2: '>h', 3: '>i', 4: '>q'}[typ], exact(stream, {1: 1, 2: 2, 3: 4, 4: 8}[typ]))[0]
+    if typ == 5:
+        return struct.unpack(">f", exact(stream, 4))[0]
+    if typ == 6:
+        return struct.unpack(">d", exact(stream, 8))[0]
+    if typ == 7:
+        length = struct.unpack(">i", exact(stream, 4))[0]
+        if length < 0 or length > 16_777_216:
+            raise ValueError("Invalid byte array length")
+        return exact(stream, length)
+    if typ in (11, 12):
+        length = struct.unpack(">i", exact(stream, 4))[0]
+        if length < 0 or length > 100_000:
+            raise ValueError("Invalid numeric array length")
+        pack = ">i" if typ == 11 else ">q"
+        width = 4 if typ == 11 else 8
+        return [struct.unpack(pack, exact(stream, width))[0] for _ in range(length)]
     if typ == 8:
         return be_string(stream)
     if typ == 10:
