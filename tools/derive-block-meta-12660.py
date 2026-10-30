@@ -118,14 +118,16 @@ def main():
     normalized = defaultdict(set)
     old_names = set()
     by_name = defaultdict(set)
+    old_states_by_name = defaultdict(list)
     unresolved_names = defaultdict(int)
     for state, meta in zip(old, old_metas):
         direct[key(state)].add(meta)
         normalized[key(state, strip=True)].add(meta)
         old_names.add(state["name"][1])
         by_name[state["name"][1]].add(meta)
+        old_states_by_name[state["name"][1]].append((state["states"][1], meta))
     computed = []
-    stats = {"exact": 0, "normalized": 0, "same_name_single_meta": 0, "new_blocks": 0, "ambiguous": 0, "existing_new_variants": 0}
+    stats = {"exact": 0, "normalized": 0, "same_name_single_meta": 0, "shared_properties": 0, "new_blocks": 0, "ambiguous": 0, "existing_new_variants": 0}
     misses = []
     for entry in new:
         statekey = key(entry)
@@ -146,8 +148,19 @@ def main():
             computed.append(0)
             stats["new_blocks"] += 1
         else:
+            name = entry["name"][1]
+            props = entry["states"][1]
+            candidates = set()
+            for previous_props, previous_meta in old_states_by_name[name]:
+                common = props.keys() & previous_props.keys()
+                if common and all(props[p] == previous_props[p] for p in common):
+                    candidates.add(previous_meta)
+            if len(candidates) == 1:
+                computed.append(next(iter(candidates)))
+                stats["shared_properties"] += 1
+                continue
             computed.append(None)
-            category = "ambiguous" if possibilities else "existing_new_variants"
+            category = "ambiguous" if candidates else "existing_new_variants"
             stats[category] += 1
             unresolved_names[entry["name"][1]] += 1
             if len(misses) < 30:
