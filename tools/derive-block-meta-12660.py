@@ -117,12 +117,15 @@ def main():
     direct = defaultdict(set)
     normalized = defaultdict(set)
     old_names = set()
+    by_name = defaultdict(set)
+    unresolved_names = defaultdict(int)
     for state, meta in zip(old, old_metas):
         direct[key(state)].add(meta)
         normalized[key(state, strip=True)].add(meta)
         old_names.add(state["name"][1])
+        by_name[state["name"][1]].add(meta)
     computed = []
-    stats = {"exact": 0, "normalized": 0, "new_blocks": 0, "ambiguous": 0, "existing_new_variants": 0}
+    stats = {"exact": 0, "normalized": 0, "same_name_single_meta": 0, "new_blocks": 0, "ambiguous": 0, "existing_new_variants": 0}
     misses = []
     for entry in new:
         statekey = key(entry)
@@ -134,6 +137,9 @@ def main():
         if possibilities and len(possibilities) == 1:
             computed.append(next(iter(possibilities)))
             stats[source] += 1
+        elif entry["name"][1] in old_names and len(by_name[entry["name"][1]]) == 1:
+            computed.append(next(iter(by_name[entry["name"][1]])))
+            stats["same_name_single_meta"] += 1
         elif entry["name"][1] not in old_names:
             # A block which literally did not exist in the previous release
             # cannot inherit legacy metadata.
@@ -143,9 +149,10 @@ def main():
             computed.append(None)
             category = "ambiguous" if possibilities else "existing_new_variants"
             stats[category] += 1
+            unresolved_names[entry["name"][1]] += 1
             if len(misses) < 30:
                 misses.append({"name": entry["name"][1], "properties": entry["states"][1], "possible": sorted(possibilities or [])[:10]})
-    report = {"old_states": len(old), "new_states": len(new), "counts": stats, "examples_unresolved": misses}
+    report = {"old_states": len(old), "new_states": len(new), "counts": stats, "unresolved_names": dict(sorted(unresolved_names.items(), key=lambda pair: -pair[1])), "examples_unresolved": misses}
     (args.output / "docs").mkdir(parents=True, exist_ok=True)
     (args.output / "docs" / "block-meta-1.26.60-audit.json").write_text(json.dumps(report, indent=2) + "\n")
     print("Block mapping audit:", json.dumps(stats))
