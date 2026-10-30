@@ -1,0 +1,793 @@
+{
+  "old_states": 22091,
+  "new_states": 23960,
+  "counts": {
+    "exact": 22058,
+    "normalized": 0,
+    "new_blocks": 30,
+    "ambiguous": 0,
+    "existing_new_variants": 1872
+  },
+  "examples_unresolved": [
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "none"
+        ],
+        "redstone_signal": [
+          3,
+          0
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "none"
+        ],
+        "redstone_signal": [
+          3,
+          1
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "none"
+        ],
+        "redstone_signal": [
+          3,
+          2
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "none"
+        ],
+        "redstone_signal": [
+          3,
+          3
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "none"
+        ],
+        "redstone_signal": [
+          3,
+          4
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "none"
+        ],
+        "redstone_signal": [
+          3,
+          5
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "none"
+        ],
+        "redstone_signal": [
+          3,
+          6
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "none"
+        ],
+        "redstone_signal": [
+          3,
+          7
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "none"
+        ],
+        "redstone_signal": [
+          3,
+          8
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "none"
+        ],
+        "redstone_signal": [
+          3,
+          9
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "none"
+        ],
+        "redstone_signal": [
+          3,
+          10
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "none"
+        ],
+        "redstone_signal": [
+          3,
+          11
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "none"
+        ],
+        "redstone_signal": [
+          3,
+          12
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "none"
+        ],
+        "redstone_signal": [
+          3,
+          13
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "none"
+        ],
+        "redstone_signal": [
+          3,
+          14
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "none"
+        ],
+        "redstone_signal": [
+          3,
+          15
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "side"
+        ],
+        "redstone_signal": [
+          3,
+          0
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "side"
+        ],
+        "redstone_signal": [
+          3,
+          1
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "side"
+        ],
+        "redstone_signal": [
+          3,
+          2
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "side"
+        ],
+        "redstone_signal": [
+          3,
+          3
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "side"
+        ],
+        "redstone_signal": [
+          3,
+          4
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "side"
+        ],
+        "redstone_signal": [
+          3,
+          5
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "side"
+        ],
+        "redstone_signal": [
+          3,
+          6
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "side"
+        ],
+        "redstone_signal": [
+          3,
+          7
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "side"
+        ],
+        "redstone_signal": [
+          3,
+          8
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "side"
+        ],
+        "redstone_signal": [
+          3,
+          9
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "side"
+        ],
+        "redstone_signal": [
+          3,
+          10
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "side"
+        ],
+        "redstone_signal": [
+          3,
+          11
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "side"
+        ],
+        "redstone_signal": [
+          3,
+          12
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    },
+    {
+      "name": "minecraft:redstone_wire",
+      "properties": {
+        "redstone_east": [
+          8,
+          "none"
+        ],
+        "redstone_north": [
+          8,
+          "side"
+        ],
+        "redstone_signal": [
+          3,
+          13
+        ],
+        "redstone_south": [
+          8,
+          "none"
+        ],
+        "redstone_west": [
+          8,
+          "none"
+        ]
+      },
+      "possible": []
+    }
+  ]
+}
