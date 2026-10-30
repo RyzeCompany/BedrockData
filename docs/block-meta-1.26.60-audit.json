@@ -4,9 +4,14 @@
   "counts": {
     "exact": 22058,
     "normalized": 0,
+    "same_name_single_meta": 64,
     "new_blocks": 30,
     "ambiguous": 0,
-    "existing_new_variants": 1872
+    "existing_new_variants": 1808
+  },
+  "unresolved_names": {
+    "minecraft:redstone_wire": 1296,
+    "minecraft:fire": 512
   },
   "examples_unresolved": [
     {
