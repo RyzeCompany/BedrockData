@@ -6,6 +6,7 @@ on:
       - feature/bedrock-1.26.60-nethernet
     paths:
       - tools/import-endstone-12660.py
+      - tools/convert-endstone-12660.py
       - .github/workflows/import-endstone-12660.yml
 
 permissions:
@@ -30,9 +31,11 @@ jobs:
             -D "$RUNNER_TEMP/endstone"
       - name: Validate and import schema-safe data
         run: python3 tools/import-endstone-12660.py "$RUNNER_TEMP/endstone"
+      - name: Convert paired block palette and item runtime IDs
+        run: python3 tools/convert-endstone-12660.py "$RUNNER_TEMP/endstone"
       - name: Check generated artifacts
         run: |
-          python3 -m py_compile tools/import-endstone-12660.py
+          python3 -m py_compile tools/import-endstone-12660.py tools/convert-endstone-12660.py
           python3 - <<'PY'
           import json
           from pathlib import Path
@@ -40,13 +43,18 @@ jobs:
           assert len(values) == len(set(values)) == 23960
           tags = json.loads(Path("item_tags-1.26.60.json").read_text())
           assert isinstance(tags, dict) and tags
+          import hashlib
+          def sha(path):
+              return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+          assert sha("canonical_block_states-1.26.60.nbt") == "88b8c903ac75d46247bed5ff785c0c050068d28440190f7412d697b045d2d51f"
+          assert sha("item_runtime_ids-1.26.60.json") == "de9e385a0bb6f65ec86a5b1e51e22bfb2ea18a05b3da0e51d4cb5651a8569f4a"
           PY
       - name: Commit verified versioned assets to this branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add block_network_ids-1.26.60.json item_tags-1.26.60.json docs/endstone-1.26.60-manifest.json
+          git add block_network_ids-1.26.60.json item_tags-1.26.60.json canonical_block_states-1.26.60.nbt item_runtime_ids-1.26.60.json docs/endstone-1.26.60-manifest.json
           if ! git diff --cached --quiet; then
-            git commit -m "data: import verified BDS 1.26.60 network hashes and item tags"
+            git commit -m "data: import verified BDS 1.26.60 palette and registries"
             git push origin HEAD:feature/bedrock-1.26.60-nethernet
           fi
