@@ -55,3 +55,26 @@ jobs:
 
           print(f"Validated {len(data_files)} JSON files and {len(essentials)} required assets")
           PY
+      - name: Verify paired 1.26.60 assets and import provenance
+        run: python3 tools/validate-12660.py
+
+  publish:
+    if: github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish tested Composer prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag=v1.0.0-beta.2
+          if gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "$tag already published; not replacing it."
+            exit 0
+          fi
+          gh release create "$tag" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --prerelease \
+            --title 'BedrockData 1.0.0-beta.2 · versioned 1.26.60 assets' --notes-file RELEASE-beta2.md
