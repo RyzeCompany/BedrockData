@@ -1,0 +1,15 @@
+{
+  "old_states": 22091,
+  "new_states": 23960,
+  "counts": {
+    "exact": 22058,
+    "normalized": 0,
+    "same_name_single_meta": 64,
+    "shared_properties": 1808,
+    "new_blocks": 30,
+    "ambiguous": 0,
+    "existing_new_variants": 0
+  },
+  "unresolved_names": {},
+  "examples_unresolved": []
+}
